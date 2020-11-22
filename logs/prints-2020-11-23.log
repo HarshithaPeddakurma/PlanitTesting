@@ -1,0 +1,7 @@
+10:39:02.735 [main] INFO  resources.Base - Enter data in forname,Email,Message
+10:39:02.789 [main] INFO  resources.Base - Click on Submit button
+10:39:15.003 [main] INFO  resources.Base - Validate successfull message
+10:39:15.358 [main] INFO  resources.Base - Click on the back button od the successfull submission of Contact Page
+10:39:15.896 [main] INFO  resources.Base - Enter data in forname,Email,Message
+10:39:15.933 [main] INFO  resources.Base - Validate successfull message
+10:39:24.171 [main] INFO  resources.Base - Login in to the jupiter toys application
