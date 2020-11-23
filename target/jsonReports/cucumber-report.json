@@ -1,0 +1,274 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-22T23:35:12.561Z",
+        "line": 13,
+        "name": "",
+        "description": "Display errors if the mandatory fields are not entered on the contact Page ",
+        "id": "jupiter-toys-page;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11118000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open Chrome and navigate to \"http://jupiter.cloud.planittesting.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://jupiter.cloud.planittesting.com",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinations.StepDefination.open_chrome_and_navigate_to_something(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 442000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Go to contact page from home page and click on submit button",
+            "match": {
+              "location": "stepdefinations.StepDefination.go_to_contact_page_from_home_page_and_click_on_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate Errors",
+            "match": {
+              "location": "stepdefinations.StepDefination.validate_errors()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 270000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Populate Mandatory fields \"Harshitha\"\"harshitha.p@gmail.com\"\"Hi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Harshitha",
+                  "offset": 27
+                },
+                {
+                  "val": "harshitha.p@gmail.com",
+                  "offset": 38
+                },
+                {
+                  "val": "Hi",
+                  "offset": 61
+                }
+              ],
+              "location": "stepdefinations.StepDefination.populate_mandatory_fields_somethingsomethingsomething(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Validate Errors are gone",
+            "match": {
+              "location": "stepdefinations.StepDefination.validate_errors_are_gone()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-22T23:35:24.621Z",
+        "line": 15,
+        "name": "",
+        "description": "Validate successful submission after successful submission of contacts fields ",
+        "id": "jupiter-toys-page;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 207000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Populate Mandatory fields",
+            "match": {
+              "location": "stepdefinations.StepDefination.populate_mandatory_fields()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click submit after entering the data in the Contacts Page",
+            "match": {
+              "location": "stepdefinations.StepDefination.click_submit_after_entering_the_data_in_the_contacts_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13666000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Validate successful submission",
+            "match": {
+              "location": "stepdefinations.StepDefination.validate_successful_submission()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-22T23:35:38.552Z",
+        "line": 21,
+        "name": "",
+        "description": "Validate errors after entering invalid data in the mandatory field of Contacts Page ",
+        "id": "jupiter-toys-page;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 410000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click Back button on the successful submission of Contacts page",
+            "match": {
+              "location": "stepdefinations.StepDefination.click_back_button_on_the_successful_submission_of_contacts_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 534000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Populate invalid data in the mandatory field of Contacts Page",
+            "match": {
+              "location": "stepdefinations.StepDefination.populate_invalid_data_in_the_mandatory_field_of_contacts_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Validate invalid data Errors",
+            "match": {
+              "location": "stepdefinations.StepDefination.validate_invalid_data_errors()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Jupiter Toys page",
+    "description": "",
+    "id": "jupiter-toys-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/jupiterToys.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-22T23:35:39.607Z",
+        "line": 3,
+        "name": "Verify items are added in the cart",
+        "description": "",
+        "id": "shop-cart-page;verify-items-are-added-in-the-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8840000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Chrome and go to \"http://jupiter.cloud.planittesting.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://jupiter.cloud.planittesting.com",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinations.ItemsCartStepDefination.open_chrome_and_go_to_something(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Go to shop page from home page and click two times on Funny Cow and one time on Fluffy Bunny",
+            "match": {
+              "location": "stepdefinations.ItemsCartStepDefination.go_to_shop_page_from_home_page_and_click_two_times_on_funny_cow_and_one_time_on_fluffy_bunny()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Cart Menu",
+            "match": {
+              "location": "stepdefinations.ItemsCartStepDefination.click_on_cart_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 405000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate Items are in the Cart",
+            "match": {
+              "location": "stepdefinations.ItemsCartStepDefination.validate_items_are_in_the_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Shop Cart page",
+    "description": "",
+    "id": "shop-cart-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/shopCart.feature",
+    "tags": []
+  }
+]
